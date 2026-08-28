@@ -1,18 +1,13 @@
 import java.util.Scanner;
 
 public class ffactorial {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+   
+         public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
 
-        System.out.print("Enter a number: ");
-        int n = sc.nextInt();
+        int sum = a + b;
 
-        int fact = 1;
-
-        for (int i = 1; i <= n; i++) {
-            fact = fact * i;
-        }
-
-        System.out.println("Factorial of " + n + " = " + fact);
+        System.out.println("Sum = " + sum);
     }
 }
